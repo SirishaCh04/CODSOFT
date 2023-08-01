@@ -19,7 +19,7 @@ def delete_item(listbox: Listbox):
 
 L1=Label(root, text='My To Do List', bg='blue', font=("Times", 15), wraplength=300)
 L1.place(x=90, y=10)
-tasks = Listbox(root, selectbackground='peach', bg='beige', font=('Helvetica', 12), height=12, width=25)
+tasks = Listbox(root, selectbackground='yellow', bg='beige', font=('Helvetica', 12), height=12, width=25)
 scroller = Scrollbar(root, orient=VERTICAL, command=tasks.yview)
 scroller.place(x=260, y=50, height=232)
 tasks.config(yscrollcommand=scroller.set)
